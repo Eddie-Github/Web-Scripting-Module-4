@@ -1,0 +1,13 @@
+/* make text green */
+*{
+    color: green;
+    text-align: center;
+}
+/* increase font size of text */
+p, a{
+    font-size: large;
+}
+/* add padding above footer */
+footer{
+    padding-top: 10pt;
+}
