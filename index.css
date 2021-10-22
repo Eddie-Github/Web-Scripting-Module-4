@@ -4,7 +4,7 @@
     text-align: center;
 }
 /* increase font size of text */
-p, a{
+p, a, footer, label, button, input{
     font-size: large;
 }
 /* add padding above footer */

@@ -17,6 +17,10 @@ function palindromeForm(event)
     //first check if the input is a string
     if (typeof input === 'string') 
     {
+        //remove spaces from string
+        inputWithoutSpaces = input.split(' ').join('');
+        input = inputWithoutSpaces;
+
         //split input into array of characters
         var inputArray = Array.from(input);
         //reverse the array
